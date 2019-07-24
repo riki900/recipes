@@ -45,10 +45,15 @@ class AllRecipes(AbstractScraper):
             {'class': 'recipe-directions__list--item'}
         )
 
-        return '\n'.join([
-            normalize_string(instruction.get_text())
-            for instruction in instructions
-        ])
+        return [
+             normalize_string(instruction.get_text())
+             for instruction in instructions
+         ]
+
+        # return '\n'.join([
+        #     normalize_string(instruction.get_text())
+        #     for instruction in instructions
+        # ])
         
     def ratings(self):
         rating = self.soup.find("meta", {"property": "og:rating"})

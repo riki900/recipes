@@ -11,7 +11,11 @@
         "1 large potato, peeled and chopped",
         "5 cups vegetable broth"
     ],
-    "instructions": "Heat oil in a large pot over medium heat. Heat garlic, cilantro and chili paste. Saute onion until tender. Stir in carrots and potato; cook 5 minutes and then pour in vegetable broth.\nSimmer for 30 to 45 minutes, or until potatoes and carrots are soft. With a hand blender, blend until smooth.\n",
+    "instructions": [
+        "Heat oil in a large pot over medium heat. Heat garlic, cilantro and chili paste. Saute onion until tender. Stir in carrots and potato; cook 5 minutes and then pour in vegetable broth.",
+        "Simmer for 30 to 45 minutes, or until potatoes and carrots are soft. With a hand blender, blend until smooth.",
+        ""
+    ],
     "ratings": 4.49,
     "reviews": "",
     "title": "Carrot Chile and Cilantro Soup",
